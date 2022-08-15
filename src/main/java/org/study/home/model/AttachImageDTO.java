@@ -15,4 +15,36 @@ public class AttachImageDTO {
 	
 	/* 상품 id */
 	private int shipId;
+
+	public int getShipId() {
+		return shipId;
+	}
+
+	public void setShipId(int shipId) {
+		this.shipId = shipId;
+	}
+
+	public String getFileName() {
+		return fileName;
+	}
+
+	public void setFileName(String fileName) {
+		this.fileName = fileName;
+	}
+
+	public String getUuid() {
+		return uuid;
+	}
+
+	public void setUuid(String uuid) {
+		this.uuid = uuid;
+	}
+
+	public String getUploadPath() {
+		return uploadPath;
+	}
+
+	public void setUploadPath(String uploadPath) {
+		this.uploadPath = uploadPath;
+	}
 }

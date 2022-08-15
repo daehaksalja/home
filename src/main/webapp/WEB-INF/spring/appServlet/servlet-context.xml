@@ -25,6 +25,10 @@
 	
 	<beans:bean id="AdminInterceptor"
       class="org.study.home.interceptor.AdminInterceptor" />
+      
+      
+    
+	
 
    <interceptors>
       <interceptor>
@@ -34,5 +38,8 @@
    </interceptors>
 	
 	<beans:bean id="multipartResolver" class="org.springframework.web.multipart.support.StandardServletMultipartResolver"></beans:bean>
+	
+	
+	
 	
 </beans:beans>

@@ -4,11 +4,9 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 import org.study.home.mapper.AdminMapper;
 import org.study.home.model.Criteria;
 import org.study.home.model.ShipDTO;
-import lombok.extern.log4j.Log4j;
 
 @Service
 
